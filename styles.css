@@ -1,0 +1,32 @@
+.calculator {
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.screen {
+  height: 90px;
+  width: 292px;
+  background-color: #c6caca;
+  border: 1px solid black;
+}
+
+.keypad {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.numeric-row {
+  display: flex;
+  gap: 4px;
+}
+
+button {
+  height: 50px;
+  width: 70px;
+  font-size: 35px;
+}
